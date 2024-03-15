@@ -139,7 +139,7 @@ app.delete('/movies/:id', (req, res) => {
     });
 });
 
-// Search for review comments
+
 app.get('/reviews/search', (req, res) => {
     const searchTerm = req.query.search;
     const searchQuery = 'SELECT * FROM reviews WHERE review_comments LIKE ?';
