@@ -16,7 +16,7 @@
 .heading {
   text-align: left;
   padding: 15px;
-  flex: 1; /* Allow the heading to take up remaining space */
+  flex: 1;
 }
 
 .bg {
@@ -24,12 +24,12 @@
   height: 100px;
   background-color: rgba(227, 232, 237);
   display: flex;
-  align-items: center; /* Align items vertically in the center */
+  align-items: center;
 }
 
 .buttons {
-  text-align: right; /* Align buttons to the right */
-  /* Allow the buttons to take up remaining space */
+  text-align: right; 
+
   display: flex;
   gap: 5px;
   margin-right: 20px;
